@@ -1,0 +1,318 @@
+
+img {
+    width: 100%;
+    margin: 0px;
+    object-fit: cover;
+}
+
+.container {
+    display: grid;
+    grid-template: "container";
+    place-items: center;
+    padding: .5rem;
+    margin-top: -16px;
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+.container > * {
+    grid-area: container;
+}
+
+.title {
+    font-family: 'Quicksand', sans-serif;
+    font-style: bold;
+    font-size: 140px;
+    color: white;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+header p {
+    font-family: 'Quicksand', sans-serif;
+    font-style: medium;
+    font-size: 18px;
+    color: white;
+    position: relative;
+    top: 200px;
+    padding: 1rem;
+}
+
+nav {
+    height: 50px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    word-spacing: 5px;
+    padding-top: 5px;
+    background-color: #D66136;
+    color: white;
+    margin: -8px;
+    vertical-align: middle;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+  }
+
+a:visited {
+    color: white;
+  }
+
+.characterset {
+    background-color: #C2491C;
+    margin: -14px;
+    padding: .5rem;
+}
+
+.characterset h3 {
+    background-color: #F19408;
+    height: 50px;
+    width: 220px;
+    margin-left: -2px;
+    border-radius: 5px 50px 50px 5px; 
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 2;
+}
+
+
+.characterset p {
+        color:#F19408;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 700;
+        font-size:  35px;
+        position: relative;
+        left: 60px;
+        letter-spacing: 5px;
+        margin-right: 160px;
+}
+
+.letters {
+    background-color: #C2491C;
+    color: #522410;;
+    margin-left: -68px;
+    padding: .5rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size:  40px;
+    position: relative;
+    left: 60px;
+    word-spacing: 10px;
+    text-align: center;
+}
+
+.display {
+    background-color:#522410;
+    margin: -14px;
+    padding: .5rem;
+}
+
+#Sun {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 55px;
+    display: inline;
+    color: #FFE607;
+    float: right;
+    padding-right: 100px;
+    margin-top: -70px;
+}
+
+#Fire{
+    background-color: #522410;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    display: inline;
+    color: #FF2E00;
+    font-size: 55px;
+    margin-left: 900px;
+}
+
+#Heat{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 95px;
+    display: inline;
+    color: #F19408;
+    margin-top: -30px;
+    margin-left: 210px;
+}
+
+#Mars{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 70px;
+    display: inline;
+    color: #D66136;
+    margin-left: 175px;
+    margin-bottom: 50px;
+}
+
+.display h3 {
+    background-color:#D66136;
+    height: 50px;
+    width: 220px;
+    margin-left: -2px;
+    border-radius: 5px 50px 50px 5px; 
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2;
+}
+
+.bodycopy {
+    background-color: #C2491C;
+    margin: -14px;
+    padding: .5rem;
+}
+
+.bodycopy h3 {
+    background-color:#D66136;
+    height: 50px;
+    width: 220px;
+    margin-left: -2px;
+    border-radius: 5px 50px 50px 5px; 
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2;
+}
+ 
+.first {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: .5rem;
+}
+
+.second {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: right;
+    color:#F19408;
+    position: relative;
+    float: right;
+    top: -150px;
+    padding-right: 1rem;
+}
+
+.third p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    font-style: light;
+    padding: .5rem;
+    text-align: center;
+    color:#F19408;
+    margin-left: 200px;
+}
+
+.infocontrast {
+    background-color:#522410;
+    margin: -14px;
+    padding: .5rem;
+}
+
+.infocontrast h3{
+    background-color:#D66136;
+    height: 50px;
+    width: 370px;
+    margin-left: -2px;
+    border-radius: 5px 50px 50px 5px; 
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2;
+}
+
+.heading-1 h4{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 27px;
+    font-weight: 300;
+    padding: .5rem;
+    text-align: center;
+    color:#FF2E00;
+    margin-bottom: -10px;
+}
+
+.heading-1 p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    padding: .5rem;
+    text-align: left;
+    color:#D66136;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    margin-left: 350px
+}
+
+.heading-1 h6{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    padding: .5rem;
+    text-align: left;
+    color:#D66136;
+    margin-top: -10px;
+    margin-left: 350px;
+}
+
+.heading-2 h4 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    padding: .5rem;
+    text-align: center;
+    color:#F19408;
+    margin-bottom: -10px;
+}
+
+.heading-2 h5 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    padding: .5rem;
+    text-align: center;
+    color:#F19408;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.heading-2 p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    padding: .5rem;
+    text-align: left;
+    color:#FFE607;
+    margin-top: -10px;
+    margin-left: 250px;
+    margin-bottom: -10px;
+}
+
+.heading-2 h6 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    padding: .5rem;
+    text-align: left;
+    color: #F19408;
+    margin-top: -10px;
+    margin-left: 250px;
+}
+
+
+
